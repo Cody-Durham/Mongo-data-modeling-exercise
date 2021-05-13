@@ -1,7 +1,7 @@
 // HINT: The dates here are not strings! Add the Mongoose data type to 
 // the Schema that automatically populates a date at the time the data is created.
 
-[ 
+[  
     {
         "to": "Ron",
         "from": "Leslie",
@@ -32,4 +32,4 @@
         "message": "I am 100% certain that I am 0% sure of what I am going to do.",
         "sentOn": "Apr 24, 2019"
     }
-] 
+]  
