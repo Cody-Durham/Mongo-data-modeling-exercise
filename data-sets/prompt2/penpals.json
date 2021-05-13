@@ -1,7 +1,7 @@
 // HINT: The dates here are not strings! Add the Mongoose data type to 
 // the Schema that automatically populates a date at the time the data is created.
 
-[
+[ 
     {
         "to": "Ron",
         "from": "Leslie",
