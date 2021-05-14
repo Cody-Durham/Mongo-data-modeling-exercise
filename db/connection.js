@@ -7,9 +7,9 @@ const mongoURI = 'mongodb://localhost:27017/' + 'beverages'
 
 //configure the params here
 const config = {
-    useUnifiedTopo:true, 
+    useUnifiedTopology:true, 
     useNewUrlParser: true, 
-    UseFindAndModify: false, 
+    useFindAndModify: false, 
 }
 
 //connecting to the URI that connects to mongo

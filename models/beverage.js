@@ -8,10 +8,10 @@ const beverageSchema = new Schema({
         "beverage-name": String,
         "brand": String,
         "beverage-type": String,
-        "contains-sugar": true,
-        "carbonated": true,
+        "contains-sugar": Boolean,
+        "carbonated": Boolean,
         "container": String,
-},{timestamps: true})// I wanted to add a timestamp here.. even though its not needed. 
+})// I wanted to add a timestamp here.. even though its not needed. 
 
 //create the model = collection + schema
 //                              collection↓      schema↓
