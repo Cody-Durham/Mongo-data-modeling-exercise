@@ -5,12 +5,12 @@ const mongoose = require('../db/connection')
 const Schema = mongoose.Schema
 
 const beverageSchema = new Schema({
-        "beverage-name": String,
-        "brand": String,
-        "beverage-type": String,
-        "contains-sugar": true,
-        "carbonated": true,
-        "container": String,
+        beverageName: String,
+        brand: String,
+        beverageType: String,
+        containsSugar: true,
+        carbonated: true,
+        container: String,
 },{timestamps: true})// I wanted to add a timestamp here.. even though its not needed. 
 
 //create the model = collection + schema
