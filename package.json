@@ -5,7 +5,7 @@
   "main": "connection.js",
   "scripts": {
     "start": "node server.js", 
-    "db:seed": "node .db/seed.js",
+    "db:seed": "node db/seed.js"
   },
   "repository": {
     "type": "git",
